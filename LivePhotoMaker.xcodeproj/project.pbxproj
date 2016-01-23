@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C49F89C1C53DD25003ACDCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F89B1C53DD25003ACDCD /* main.m */; };
+		3C49F89F1C53DD25003ACDCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F89E1C53DD25003ACDCD /* AppDelegate.m */; };
+		3C49F8A21C53DD25003ACDCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8A11C53DD25003ACDCD /* ViewController.m */; };
+		3C49F8A51C53DD25003ACDCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C49F8A31C53DD25003ACDCD /* Main.storyboard */; };
+		3C49F8A71C53DD25003ACDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C49F8A61C53DD25003ACDCD /* Assets.xcassets */; };
+		3C49F8AA1C53DD25003ACDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C49F8A81C53DD25003ACDCD /* LaunchScreen.storyboard */; };
+		3C49F8B51C53DD26003ACDCD /* LivePhotoMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8B41C53DD26003ACDCD /* LivePhotoMakerTests.m */; };
+		3C49F8C01C53DD26003ACDCD /* LivePhotoMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8BF1C53DD26003ACDCD /* LivePhotoMakerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C49F8B11C53DD26003ACDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C49F88F1C53DD23003ACDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C49F8961C53DD24003ACDCD;
+			remoteInfo = LivePhotoMaker;
+		};
+		3C49F8BC1C53DD26003ACDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C49F88F1C53DD23003ACDCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C49F8961C53DD24003ACDCD;
+			remoteInfo = LivePhotoMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C49F8971C53DD24003ACDCD /* LivePhotoMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePhotoMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C49F89B1C53DD25003ACDCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C49F89D1C53DD25003ACDCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C49F89E1C53DD25003ACDCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C49F8A01C53DD25003ACDCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C49F8A11C53DD25003ACDCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C49F8A41C53DD25003ACDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C49F8A61C53DD25003ACDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C49F8A91C53DD25003ACDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C49F8AB1C53DD25003ACDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C49F8B01C53DD26003ACDCD /* LivePhotoMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivePhotoMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C49F8B41C53DD26003ACDCD /* LivePhotoMakerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoMakerTests.m; sourceTree = "<group>"; };
+		3C49F8B61C53DD26003ACDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C49F8BB1C53DD26003ACDCD /* LivePhotoMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivePhotoMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C49F8BF1C53DD26003ACDCD /* LivePhotoMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoMakerUITests.m; sourceTree = "<group>"; };
+		3C49F8C11C53DD26003ACDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C49F8941C53DD24003ACDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C49F8AD1C53DD26003ACDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C49F8B81C53DD26003ACDCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C49F88E1C53DD23003ACDCD = {
+			isa = PBXGroup;
+			children = (
+				3C49F8991C53DD25003ACDCD /* LivePhotoMaker */,
+				3C49F8B31C53DD26003ACDCD /* LivePhotoMakerTests */,
+				3C49F8BE1C53DD26003ACDCD /* LivePhotoMakerUITests */,
+				3C49F8981C53DD24003ACDCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C49F8981C53DD24003ACDCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C49F8971C53DD24003ACDCD /* LivePhotoMaker.app */,
+				3C49F8B01C53DD26003ACDCD /* LivePhotoMakerTests.xctest */,
+				3C49F8BB1C53DD26003ACDCD /* LivePhotoMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C49F8991C53DD25003ACDCD /* LivePhotoMaker */ = {
+			isa = PBXGroup;
+			children = (
+				3C49F89D1C53DD25003ACDCD /* AppDelegate.h */,
+				3C49F89E1C53DD25003ACDCD /* AppDelegate.m */,
+				3C49F8A01C53DD25003ACDCD /* ViewController.h */,
+				3C49F8A11C53DD25003ACDCD /* ViewController.m */,
+				3C49F8A31C53DD25003ACDCD /* Main.storyboard */,
+				3C49F8A61C53DD25003ACDCD /* Assets.xcassets */,
+				3C49F8A81C53DD25003ACDCD /* LaunchScreen.storyboard */,
+				3C49F8AB1C53DD25003ACDCD /* Info.plist */,
+				3C49F89A1C53DD25003ACDCD /* Supporting Files */,
+			);
+			path = LivePhotoMaker;
+			sourceTree = "<group>";
+		};
+		3C49F89A1C53DD25003ACDCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C49F89B1C53DD25003ACDCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C49F8B31C53DD26003ACDCD /* LivePhotoMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C49F8B41C53DD26003ACDCD /* LivePhotoMakerTests.m */,
+				3C49F8B61C53DD26003ACDCD /* Info.plist */,
+			);
+			path = LivePhotoMakerTests;
+			sourceTree = "<group>";
+		};
+		3C49F8BE1C53DD26003ACDCD /* LivePhotoMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C49F8BF1C53DD26003ACDCD /* LivePhotoMakerUITests.m */,
+				3C49F8C11C53DD26003ACDCD /* Info.plist */,
+			);
+			path = LivePhotoMakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C49F8961C53DD24003ACDCD /* LivePhotoMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C49F8C41C53DD26003ACDCD /* Build configuration list for PBXNativeTarget "LivePhotoMaker" */;
+			buildPhases = (
+				3C49F8931C53DD24003ACDCD /* Sources */,
+				3C49F8941C53DD24003ACDCD /* Frameworks */,
+				3C49F8951C53DD24003ACDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivePhotoMaker;
+			productName = LivePhotoMaker;
+			productReference = 3C49F8971C53DD24003ACDCD /* LivePhotoMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C49F8AF1C53DD26003ACDCD /* LivePhotoMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C49F8C71C53DD26003ACDCD /* Build configuration list for PBXNativeTarget "LivePhotoMakerTests" */;
+			buildPhases = (
+				3C49F8AC1C53DD26003ACDCD /* Sources */,
+				3C49F8AD1C53DD26003ACDCD /* Frameworks */,
+				3C49F8AE1C53DD26003ACDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C49F8B21C53DD26003ACDCD /* PBXTargetDependency */,
+			);
+			name = LivePhotoMakerTests;
+			productName = LivePhotoMakerTests;
+			productReference = 3C49F8B01C53DD26003ACDCD /* LivePhotoMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C49F8BA1C53DD26003ACDCD /* LivePhotoMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C49F8CA1C53DD26003ACDCD /* Build configuration list for PBXNativeTarget "LivePhotoMakerUITests" */;
+			buildPhases = (
+				3C49F8B71C53DD26003ACDCD /* Sources */,
+				3C49F8B81C53DD26003ACDCD /* Frameworks */,
+				3C49F8B91C53DD26003ACDCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C49F8BD1C53DD26003ACDCD /* PBXTargetDependency */,
+			);
+			name = LivePhotoMakerUITests;
+			productName = LivePhotoMakerUITests;
+			productReference = 3C49F8BB1C53DD26003ACDCD /* LivePhotoMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C49F88F1C53DD23003ACDCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = takoweb;
+				TargetAttributes = {
+					3C49F8961C53DD24003ACDCD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4BBJN4LS2M;
+					};
+					3C49F8AF1C53DD26003ACDCD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4BBJN4LS2M;
+						TestTargetID = 3C49F8961C53DD24003ACDCD;
+					};
+					3C49F8BA1C53DD26003ACDCD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4BBJN4LS2M;
+						TestTargetID = 3C49F8961C53DD24003ACDCD;
+					};
+				};
+			};
+			buildConfigurationList = 3C49F8921C53DD24003ACDCD /* Build configuration list for PBXProject "LivePhotoMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C49F88E1C53DD23003ACDCD;
+			productRefGroup = 3C49F8981C53DD24003ACDCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C49F8961C53DD24003ACDCD /* LivePhotoMaker */,
+				3C49F8AF1C53DD26003ACDCD /* LivePhotoMakerTests */,
+				3C49F8BA1C53DD26003ACDCD /* LivePhotoMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C49F8951C53DD24003ACDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C49F8AA1C53DD25003ACDCD /* LaunchScreen.storyboard in Resources */,
+				3C49F8A71C53DD25003ACDCD /* Assets.xcassets in Resources */,
+				3C49F8A51C53DD25003ACDCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C49F8AE1C53DD26003ACDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C49F8B91C53DD26003ACDCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C49F8931C53DD24003ACDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C49F8A21C53DD25003ACDCD /* ViewController.m in Sources */,
+				3C49F89F1C53DD25003ACDCD /* AppDelegate.m in Sources */,
+				3C49F89C1C53DD25003ACDCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C49F8AC1C53DD26003ACDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C49F8B51C53DD26003ACDCD /* LivePhotoMakerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C49F8B71C53DD26003ACDCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C49F8C01C53DD26003ACDCD /* LivePhotoMakerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C49F8B21C53DD26003ACDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C49F8961C53DD24003ACDCD /* LivePhotoMaker */;
+			targetProxy = 3C49F8B11C53DD26003ACDCD /* PBXContainerItemProxy */;
+		};
+		3C49F8BD1C53DD26003ACDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C49F8961C53DD24003ACDCD /* LivePhotoMaker */;
+			targetProxy = 3C49F8BC1C53DD26003ACDCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C49F8A31C53DD25003ACDCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C49F8A41C53DD25003ACDCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C49F8A81C53DD25003ACDCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C49F8A91C53DD25003ACDCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C49F8C21C53DD26003ACDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C49F8C31C53DD26003ACDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C49F8C51C53DD26003ACDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivePhotoMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takoweb.LivePhotoMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C49F8C61C53DD26003ACDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivePhotoMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takoweb.LivePhotoMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C49F8C81C53DD26003ACDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LivePhotoMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takoweb.LivePhotoMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivePhotoMaker.app/LivePhotoMaker";
+			};
+			name = Debug;
+		};
+		3C49F8C91C53DD26003ACDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LivePhotoMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takoweb.LivePhotoMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivePhotoMaker.app/LivePhotoMaker";
+			};
+			name = Release;
+		};
+		3C49F8CB1C53DD26003ACDCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LivePhotoMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takoweb.LivePhotoMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LivePhotoMaker;
+			};
+			name = Debug;
+		};
+		3C49F8CC1C53DD26003ACDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LivePhotoMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takoweb.LivePhotoMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LivePhotoMaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C49F8921C53DD24003ACDCD /* Build configuration list for PBXProject "LivePhotoMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C49F8C21C53DD26003ACDCD /* Debug */,
+				3C49F8C31C53DD26003ACDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C49F8C41C53DD26003ACDCD /* Build configuration list for PBXNativeTarget "LivePhotoMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C49F8C51C53DD26003ACDCD /* Debug */,
+				3C49F8C61C53DD26003ACDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C49F8C71C53DD26003ACDCD /* Build configuration list for PBXNativeTarget "LivePhotoMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C49F8C81C53DD26003ACDCD /* Debug */,
+				3C49F8C91C53DD26003ACDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C49F8CA1C53DD26003ACDCD /* Build configuration list for PBXNativeTarget "LivePhotoMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C49F8CB1C53DD26003ACDCD /* Debug */,
+				3C49F8CC1C53DD26003ACDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C49F88F1C53DD23003ACDCD /* Project object */;
+}
