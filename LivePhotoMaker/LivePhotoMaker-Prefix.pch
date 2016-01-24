@@ -1,0 +1,21 @@
+//
+//  LivePhotoMaker-Prefix.pch
+//  LivePhotoMaker
+//
+//  Created by tako on 2016/01/24.
+//  Copyright © 2016年 tako. All rights reserved.
+//
+
+#ifndef LivePhotoMaker_Prefix_pch
+#define LivePhotoMaker_Prefix_pch
+
+// Note: Please make sure that PATH_IMAGE_FILE and PATH_MOVIE_FILE are same name (except extension).
+#define NAME_TEMP_FILE      @"tmp.mov"
+#define NAME_IMAGE_FILE     @"generated.jpg"
+#define NAME_MOVIE_FILE     @"generated.mov"
+
+#define PATH_TEMP_FILE      [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:NAME_TEMP_FILE]
+#define PATH_IMAGE_FILE     [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:NAME_IMAGE_FILE]
+#define PATH_MOVIE_FILE     [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:NAME_MOVIE_FILE]
+
+#endif /* LivePhotoMaker_Prefix_pch */

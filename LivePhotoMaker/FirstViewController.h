@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FirstViewController.h
 //  LivePhotoMaker
 //
 //  Created by tako on 2016/01/24.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FirstViewController : UIViewController
 
 @end
-
