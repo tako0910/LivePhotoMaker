@@ -23,6 +23,8 @@
 @property (nonatomic, assign) id playTimeObserver;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *buttonMake;
 
+@property (weak, nonatomic) IBOutlet UILabel *labelLicense;
+
 @property (strong, nonatomic) NSString *genUUID;
 
 @end
@@ -31,12 +33,12 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillDisappear:animated];
-
+    
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        self.awPlayer.hidden = YES;
         self.sliderTime.hidden = YES;
         self.buttonMake.enabled = NO;
+        [self.labelLicense setText:@"LivePhotoMaker by @tako0910\nCore technology (LoveLiver) by @mzp"];
     });
 }
 
@@ -114,6 +116,7 @@
     [self dismissViewControllerAnimated:YES completion:^{
         self.awPlayer.hidden = NO;
         self.sliderTime.hidden = NO;
+        self.labelLicense.hidden = YES;
         self.buttonMake.enabled = YES;
     }];
     

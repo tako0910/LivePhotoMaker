@@ -38,12 +38,23 @@
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zhY-cQ-h0Z">
                                         <rect key="frame" x="6" y="421" width="588" height="31"/>
                                     </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lR1-NB-krR">
+                                        <rect key="frame" x="8" y="52" width="584" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="a0R-JO-WTF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="lR1-NB-krR" firstAttribute="top" secondItem="I79-Wp-OB5" secondAttribute="top" constant="52" id="UlB-BQ-Ayr"/>
                                     <constraint firstItem="zhY-cQ-h0Z" firstAttribute="leading" secondItem="I79-Wp-OB5" secondAttribute="leading" constant="8" id="aoF-Xw-jze"/>
+                                    <constraint firstItem="lR1-NB-krR" firstAttribute="leading" secondItem="I79-Wp-OB5" secondAttribute="leading" constant="8" id="jmr-g3-ekR"/>
                                     <constraint firstAttribute="trailing" secondItem="zhY-cQ-h0Z" secondAttribute="trailing" constant="8" id="kBs-op-gjo"/>
                                     <constraint firstAttribute="bottom" secondItem="zhY-cQ-h0Z" secondAttribute="bottom" constant="85" id="rnt-eG-1fM"/>
+                                    <constraint firstAttribute="trailing" secondItem="lR1-NB-krR" secondAttribute="trailing" constant="8" id="zr1-rf-Mn3"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -70,6 +81,7 @@
                     <connections>
                         <outlet property="awPlayer" destination="I79-Wp-OB5" id="4O5-3f-SGT"/>
                         <outlet property="buttonMake" destination="hZ6-Zr-4ZD" id="5cs-eW-5rP"/>
+                        <outlet property="labelLicense" destination="lR1-NB-krR" id="S0e-ro-1nk"/>
                         <outlet property="sliderTime" destination="zhY-cQ-h0Z" id="Pkw-wt-Qj1"/>
                     </connections>
                 </viewController>
@@ -91,7 +103,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jM0-J5-Bbm" customClass="PHLivePhotoView">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
