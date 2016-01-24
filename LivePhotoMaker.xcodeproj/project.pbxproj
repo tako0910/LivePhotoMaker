@@ -14,10 +14,10 @@
 		3C49F8AA1C53DD25003ACDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C49F8A81C53DD25003ACDCD /* LaunchScreen.storyboard */; };
 		3C49F8B51C53DD26003ACDCD /* LivePhotoMakerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8B41C53DD26003ACDCD /* LivePhotoMakerTests.m */; };
 		3C49F8C01C53DD26003ACDCD /* LivePhotoMakerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8BF1C53DD26003ACDCD /* LivePhotoMakerUITests.m */; };
-		3C49F8D41C53E7F8003ACDCD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8D31C53E7F8003ACDCD /* FirstViewController.m */; };
-		3C49F8D61C53EC65003ACDCD /* QuickTimeMov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8D51C53EC65003ACDCD /* QuickTimeMov.swift */; };
-		3C49F8D91C53ED11003ACDCD /* AWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8D81C53ED11003ACDCD /* AWPlayer.m */; };
-		3C49F8DF1C5418F4003ACDCD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8DE1C5418F4003ACDCD /* SecondViewController.m */; };
+		3C49F8E51C54BC29003ACDCD /* AWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8E21C54BC29003ACDCD /* AWPlayer.m */; };
+		3C49F8E61C54BC29003ACDCD /* QuickTimeMov.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8E41C54BC29003ACDCD /* QuickTimeMov.swift */; };
+		3C49F8EB1C54BC51003ACDCD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8E81C54BC51003ACDCD /* FirstViewController.m */; };
+		3C49F8EC1C54BC51003ACDCD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C49F8EA1C54BC51003ACDCD /* SecondViewController.m */; };
 		C75527F3920AA04F5B256166 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BC4FA4D685048A66765B2E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,15 +54,15 @@
 		3C49F8BB1C53DD26003ACDCD /* LivePhotoMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivePhotoMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C49F8BF1C53DD26003ACDCD /* LivePhotoMakerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LivePhotoMakerUITests.m; sourceTree = "<group>"; };
 		3C49F8C11C53DD26003ACDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C49F8D21C53E7F8003ACDCD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		3C49F8D31C53E7F8003ACDCD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3C49F8D51C53EC65003ACDCD /* QuickTimeMov.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTimeMov.swift; sourceTree = "<group>"; };
-		3C49F8D71C53ED11003ACDCD /* AWPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWPlayer.h; sourceTree = "<group>"; };
-		3C49F8D81C53ED11003ACDCD /* AWPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWPlayer.m; sourceTree = "<group>"; };
-		3C49F8DC1C5400A7003ACDCD /* LivePhotoMaker-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LivePhotoMaker-Bridging-Header.h"; sourceTree = "<group>"; };
-		3C49F8DD1C5418F4003ACDCD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		3C49F8DE1C5418F4003ACDCD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		3C49F8E01C5496A0003ACDCD /* LivePhotoMaker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LivePhotoMaker-Prefix.pch"; sourceTree = "<group>"; };
+		3C49F8E11C54BC29003ACDCD /* AWPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWPlayer.h; path = Utilities/AWPlayer.h; sourceTree = "<group>"; };
+		3C49F8E21C54BC29003ACDCD /* AWPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWPlayer.m; path = Utilities/AWPlayer.m; sourceTree = "<group>"; };
+		3C49F8E41C54BC29003ACDCD /* QuickTimeMov.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickTimeMov.swift; path = Utilities/QuickTimeMov.swift; sourceTree = "<group>"; };
+		3C49F8E71C54BC51003ACDCD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = "View Controllers/FirstViewController.h"; sourceTree = "<group>"; };
+		3C49F8E81C54BC51003ACDCD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = "View Controllers/FirstViewController.m"; sourceTree = "<group>"; };
+		3C49F8E91C54BC51003ACDCD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = "View Controllers/SecondViewController.h"; sourceTree = "<group>"; };
+		3C49F8EA1C54BC51003ACDCD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = "View Controllers/SecondViewController.m"; sourceTree = "<group>"; };
+		3C49F8ED1C54BCD8003ACDCD /* LivePhotoMaker-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LivePhotoMaker-Bridging-Header.h"; sourceTree = "<group>"; };
 		A03E62DA7ECE8211D289537C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E9BC4FA4D685048A66765B2E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -135,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				3C49F89B1C53DD25003ACDCD /* main.m */,
+				3C49F8ED1C54BCD8003ACDCD /* LivePhotoMaker-Bridging-Header.h */,
 				3C49F8E01C5496A0003ACDCD /* LivePhotoMaker-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -161,10 +162,10 @@
 		3C49F8CD1C53E531003ACDCD /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3C49F8D21C53E7F8003ACDCD /* FirstViewController.h */,
-				3C49F8D31C53E7F8003ACDCD /* FirstViewController.m */,
-				3C49F8DD1C5418F4003ACDCD /* SecondViewController.h */,
-				3C49F8DE1C5418F4003ACDCD /* SecondViewController.m */,
+				3C49F8E71C54BC51003ACDCD /* FirstViewController.h */,
+				3C49F8E81C54BC51003ACDCD /* FirstViewController.m */,
+				3C49F8E91C54BC51003ACDCD /* SecondViewController.h */,
+				3C49F8EA1C54BC51003ACDCD /* SecondViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -172,10 +173,9 @@
 		3C49F8CE1C53E545003ACDCD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				3C49F8D71C53ED11003ACDCD /* AWPlayer.h */,
-				3C49F8D81C53ED11003ACDCD /* AWPlayer.m */,
-				3C49F8D51C53EC65003ACDCD /* QuickTimeMov.swift */,
-				3C49F8DC1C5400A7003ACDCD /* LivePhotoMaker-Bridging-Header.h */,
+				3C49F8E11C54BC29003ACDCD /* AWPlayer.h */,
+				3C49F8E21C54BC29003ACDCD /* AWPlayer.m */,
+				3C49F8E41C54BC29003ACDCD /* QuickTimeMov.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -381,12 +381,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C49F8EC1C54BC51003ACDCD /* SecondViewController.m in Sources */,
 				3C49F89F1C53DD25003ACDCD /* AppDelegate.m in Sources */,
-				3C49F8D61C53EC65003ACDCD /* QuickTimeMov.swift in Sources */,
-				3C49F8D91C53ED11003ACDCD /* AWPlayer.m in Sources */,
-				3C49F8DF1C5418F4003ACDCD /* SecondViewController.m in Sources */,
 				3C49F89C1C53DD25003ACDCD /* main.m in Sources */,
-				3C49F8D41C53E7F8003ACDCD /* FirstViewController.m in Sources */,
+				3C49F8EB1C54BC51003ACDCD /* FirstViewController.m in Sources */,
+				3C49F8E51C54BC29003ACDCD /* AWPlayer.m in Sources */,
+				3C49F8E61C54BC29003ACDCD /* QuickTimeMov.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
