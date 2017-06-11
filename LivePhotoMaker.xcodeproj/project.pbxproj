@@ -268,6 +268,7 @@
 					3C49F8961C53DD24003ACDCD = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 4BBJN4LS2M;
+						LastSwiftMigration = 0830;
 					};
 					3C49F8AF1C53DD26003ACDCD = {
 						CreatedOnToolsVersion = 7.3;
@@ -538,6 +539,7 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/LivePhotoMaker-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -555,6 +557,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/LivePhotoMaker-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
